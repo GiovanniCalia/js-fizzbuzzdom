@@ -18,7 +18,6 @@ h1{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
 }
 
 .box{
@@ -29,4 +28,26 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/*.boxed{
+    width: 3rem;
+    height: 3rem;
+    margin: 0.5rem;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}*/
+
+.green{
+    background-color: green;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.red{
+    background-color: red;
 }
