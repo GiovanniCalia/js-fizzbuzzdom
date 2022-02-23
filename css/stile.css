@@ -5,13 +5,28 @@
 }
 
 .container{
-    width: 800px;
+    width: 600px;
     margin: 0 auto; 
-    background-color: red;
-    height: 600px;
+    background-color: lightblue;
 }
 
 h1{
     text-align: center;
 }
 
+.box-area{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.box{
+    width: 3rem;
+    height: 3rem;
+    margin: 0.5rem;
+    background-color: lightskyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
