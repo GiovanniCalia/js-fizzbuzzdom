@@ -7,7 +7,7 @@ for (index = 1; index <= 100; index++){
     } else if (index % 5 == 0){
         areaBoxes.innerHTML += `<div class="box yellow">buzz</div>`;
     } else if (index % 15 == 0){
-        areaBoxes.innerHTML += `<div class="box red">buzz</div>`;
+        areaBoxes.innerHTML += `<div class="box red">fizzbuzz</div>`;
     } else {
         areaBoxes.innerHTML += `<div class="box">${index}</div>`;
     }

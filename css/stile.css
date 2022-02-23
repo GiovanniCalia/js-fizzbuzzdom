@@ -5,13 +5,14 @@
 }
 
 .container{
-    width: 600px;
+    width: 500px;
     margin: 0 auto; 
-    background-color: lightblue;
+    background-color: rgb(7, 59, 65);
 }
 
 h1{
     text-align: center;
+    color: white;
 }
 
 .box-area{
@@ -24,30 +25,20 @@ h1{
     width: 3rem;
     height: 3rem;
     margin: 0.5rem;
-    background-color: lightskyblue;
+    background-color: rgb(18, 137, 178);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-/*.boxed{
-    width: 3rem;
-    height: 3rem;
-    margin: 0.5rem;
-    background-color: green;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}*/
-
 .green{
-    background-color: green;
+    background-color: rgb(7, 214, 160);
 }
 
 .yellow{
-    background-color: yellow;
+    background-color: rgb(255, 209, 102);
 }
 
 .red{
-    background-color: red;
+    background-color: rgb(241, 70, 111);
 }
